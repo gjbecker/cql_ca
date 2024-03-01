@@ -109,7 +109,7 @@ def gym_ca(device='cuda', save=False):
 
     env = create_env()
 
-    pkl_path = os.path.dirname(os.path.realpath(__file__)) + '/data/RVO_2_agent_5000/d4rl.p'
+    pkl_path = os.path.dirname(os.path.realpath(__file__)) + '/gym_ca/DATA/RVO_2_agent_500/d4rl.p'
     print('Loading data from ' + pkl_path)
     
     with open(pkl_path, 'rb') as f:
